@@ -1,7 +1,7 @@
 module MUX_SRC1(
 	input [31:0] Rn, Rs, PC_out,
 	input [1:0] sel,
-	output reg [31:0] Output
+	output reg [31:0] Output // i would have given a better name here
 );
 
 always_comb begin
